@@ -73,3 +73,45 @@ canvas {
   max-width: 140px;
 }
 
+.carousel-control.left, .carousel-control.right {
+  background-image:none !important;
+  filter:none !important;
+}
+div.carousel-item {
+  margin: 0 auto;
+  width:320px;
+  height:350px;
+  overflow:hidden;
+  display:block;
+  text-align: center;
+}
+@media (min-width: 760px) {
+  div.carousel-item {
+    width:500px;
+    height:350px;
+    padding: 0 65px;
+  }
+}
+.carousel-company-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid #0099d4;
+  margin-bottom: 15px;
+}
+
+.carousel-item div span {
+  font-size: 16px;
+  color: #444444;
+  font-weight: 700;
+}
+.carousel-item p {
+  font-size: 10px;
+  color: #888888;
+  font-weight: 400;
+}
+.carousel-item-body {
+  font-size: 14px;
+  color: #444444;
+  font-weight: 500;
+}
