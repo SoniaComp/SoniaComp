@@ -1,0 +1,22 @@
+{
+  "name": "soniacomp",
+  "version": "1.0.0",
+  "description": "soniacomp_portfolio",
+  "main": "index.html",
+  "homepage": "https://soniacomp.github.io/SoniaComp/",
+  "scripts": {
+    "start": "parcel index.html",
+    "predeploy": "rm -rf dist && parcel build index.html",
+    "deploy": "gh-pages -d ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "2.9.4"
+  },
+  "devDependencies": {
+    "file-loader": "6.2.0",
+    "gh-pages": "3.1.0",
+    "parcel": "1.12.4"
+  }
+}
