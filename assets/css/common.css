@@ -1,0 +1,131 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {font-family: "Noto Sans KR", sans-serif !important;word-break:keep-all;}
+*:focus{outline:none!important;}
+::selection, .yellow, .yellow.btn{background-color: #356B8B;color:#fff;}
+::-webkit-scrollbar{width:5px;}
+::-webkit-scrollbar-track { background-color:rgba(0,0,0,0.25); }
+::-webkit-scrollbar-thumb { background: #356B8B;border-radius:10px;}
+::-webkit-scrollbar-thumb:hover{background: #356B8B;}
+::-webkit-scrollbar-thumb:active{background: #356B8B;}
+::-webkit-scrollbar-button {display: none;}
+
+h2{font-weight:500;font-size:22px;line-height:26px;margin-bottom:17px;margin-top:45px;}
+hr{max-width:720px;border-top:1px solid rgba(0,0,0,0.25);margin:16px auto;}
+label{display:flex;margin-bottom:22px;}
+input,textarea{width:100%;border-left:0;border-right:0;border-top:1px solid rgba(0,0,0,0.25);border-bottom:1px solid rgba(0,0,0,0.25);padding:8px 20px;}
+img{max-width:100%;}
+
+.container.container--large{max-width:750px;}
+.container.container--medium{max-width:550px;}
+.container.container--small{max-width:350px;}
+.container.container--header{max-width:720px;padding:10px 15px;font-size: 18px;}
+.container.container--header>div{margin:auto;max-width:640px;}
+.container.container--article{max-width:665px;font-size: 18px;line-height: 26px;}
+.container.container--article>div{margin:20px 0;}
+.container.container--article>div>strong{font-weight: 500;display:inline-block;margin-right:20px;}
+
+.btn.btn--tag{margin-right:12px;margin-bottom:12px;border:1px solid rgba(0,0,0,0.25);border-radius:20px;font-size:16px;line-height:23px;}
+.btn.btn--large{border-radius:10px;padding:10px;max-width:320px;margin:auto;display:block;width:100%;min-height:42px;}
+.btn.btn--small{margin-left:20px;}
+
+.form{border:1px solid rgba(0,0,0,0.25);border-radius:10px;}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{vertical-align:middle;}
+.table label{margin:0;}
+.table input{min-width:100px;}
+.form .tagify,.form input,.form textarea{border:0;background-color:transparent;}
+textarea{min-height:36px;}
+.buttonbox{padding:8px;text-align:right}
+
+.textbox{word-break:break-word;border:1px solid rgba(0,0,0,0.25);border-radius:10px;padding:15px;margin-top:20px;}
+.tagbox{margin-top:20px;margin-right:-12px;margin-bottom:-12px;display:flex;flex-wrap:wrap;}
+.font14{font-size:14px;line-height:17px;}
+.font18{font-size:18px;line-height:26px;}
+.font24{font-size: 24px;line-height: 35px;}
+
+li.ui-state-disabled {display:none;}
+.ui-selectmenu-button.ui-button{border-radius:10px;padding:10px;max-width:320px;margin:auto;width:100%;display:block;text-align:center;background-color:#fff;border:1px solid rgba(0,0,0,0.25);}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{background-color:#356B8B;border:1px solid rgba(0,0,0,0.25);}
+.waypoints{opacity:0;transition:0.5s linear;}
+.waypoints__triggered{opacity:1}
+
+.blur {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+table{
+	margin-left: 5%;
+	width: 90%;
+}
+
+canvas {
+  margin: 0 auto;
+  max-width: 450px;
+  min-width: 300px;
+}
+.ui-widget-imgs {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.ui-widget-imgs img {
+  width: 25%;
+  max-width: 140px;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image:none !important;
+  filter:none !important;
+}
+div.carousel-item {
+  margin: 0 auto;
+  width:320px;
+  height:350px;
+  overflow:hidden;
+  display:block;
+  text-align: center;
+}
+.carousel-company-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid #0099d4;
+  margin-bottom: 15px;
+}
+.background-blue {
+  background-color: #61dafb;
+}
+
+.carousel-item div span {
+  font-size: 16px;
+  color: #444444;
+  font-weight: 700;
+}
+.carousel-item p {
+  font-size: 10px;
+  color: #888888;
+  font-weight: 400;
+}
+.carousel-item-body {
+  font-size: 14px;
+  color: #444444;
+  font-weight: 500;
+}
+
+@media (max-width: 760px) {
+  .responsive-nav {
+    display: none;
+  }
+}
+
+@media (min-width: 760px) {
+  div.carousel-item {
+    width:500px;
+    height:350px;
+    padding: 0 65px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+}
