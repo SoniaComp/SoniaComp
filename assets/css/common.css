@@ -63,6 +63,9 @@ canvas {
   max-width: 450px;
   min-width: 300px;
 }
+.ui-widget {
+  flex-direction: column;
+}
 .ui-widget-imgs {
   display: flex;
   width: 100%;
@@ -71,6 +74,10 @@ canvas {
 .ui-widget-imgs img {
   width: 25%;
   max-width: 140px;
+}
+.ui-widget h4 {
+  font-size: 18px;
+  color: #444444;
 }
 
 .carousel-control.left, .carousel-control.right {
