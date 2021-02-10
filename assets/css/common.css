@@ -9,7 +9,7 @@ body {font-family: "Noto Sans KR", sans-serif !important;word-break:keep-all;}
 ::-webkit-scrollbar-thumb:active{background: #356B8B;}
 ::-webkit-scrollbar-button {display: none;}
 
-h2{font-weight:500;font-size:22px;line-height:26px;margin-bottom:17px;margin-top:45px;}
+h2{font-weight:700;font-size:24px;line-height:26px;margin-bottom:17px;margin-top:45px; color: rgba(39, 54, 78, 1)}
 hr{max-width:720px;border-top:1px solid rgba(0,0,0,0.25);margin:16px auto;}
 label{display:flex;margin-bottom:22px;}
 input,textarea{width:100%;border-left:0;border-right:0;border-top:1px solid rgba(0,0,0,0.25);border-bottom:1px solid rgba(0,0,0,0.25);padding:8px 20px;}
@@ -47,7 +47,10 @@ li.ui-state-disabled {display:none;}
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{background-color:#356B8B;border:1px solid rgba(0,0,0,0.25);}
 .waypoints{opacity:0;transition:0.5s linear;}
 .waypoints__triggered{opacity:1}
-
+.ui-widget {font-weight: 500; font-size: 15px;}
+.ui-widget span {font-weight: 700; font-size: 16px;}
+.ui-widget-subtitle {font-size: 17px}
+.ui-widget-time {font-size: 14px; color: #888}
 .blur {
   filter: blur(8px);
   -webkit-filter: blur(8px);

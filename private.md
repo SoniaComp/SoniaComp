@@ -16,5 +16,4 @@
 * 각 서비스에 맞는 아키텍처 스타일
 ex) [마이크로 서비스](https://docs.microsoft.com/ko-kr/azure/architecture/guide/architecture-styles/microservices#what-are-microservices)
 
-# 자바스크립트 캐러셀
-https://codepen.io/ekeric13/pen/wKOwmg
+클라우딩만 소팅해서 보여주기
