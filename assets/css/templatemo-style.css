@@ -129,6 +129,17 @@ html {
     color: #8c363e;
 }
 
+.main-contact {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    margin-bottom: 17px;
+}
+
+.main-skill {
+    margin-top: 15px
+}
+
 /* Sidebar Menu */
 
 .menu .image {
