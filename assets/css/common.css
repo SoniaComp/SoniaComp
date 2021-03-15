@@ -17,6 +17,7 @@ img{max-width:100%;}
 
 .container.container--large{max-width:750px;}
 .container.container--medium{max-width:550px;}
+.container.container--medium>strong{font-weight: 700;}
 .container.container--small{max-width:350px;}
 .container.container--header{max-width:720px;padding:10px 15px;font-size: 18px;}
 .container.container--header>div{margin:auto;max-width:640px;}
@@ -49,6 +50,7 @@ li.ui-state-disabled {display:none;}
 .waypoints__triggered{opacity:1}
 .ui-widget {font-weight: 500; font-size: 15px;}
 .ui-widget span {font-weight: 700; font-size: 16px;}
+.ui-widget p {color: black; margin: 0; font-size: 15px;}
 .ui-widget-subtitle {font-size: 17px}
 .ui-widget-time {font-size: 14px; color: #888}
 .blur {
