@@ -1,1 +1,9 @@
-![header](https://capsule-render.vercel.app/api?type=soft&color=auto&height=150&section=header&text=Sonia Park&fontSize=70&animation=twinkling)
+# Hi, I'm Sonia Park 👋
+
+### Education
+고려대학교 - Korea University, Seoul
+B.E. Student in Software Technology & Entrepreneurship Program
+
+### Currently Interested in..
+- SW Architect
+- Data Engineering
