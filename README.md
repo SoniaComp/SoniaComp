@@ -6,5 +6,5 @@
 B.E. Student in Software Technology & Entrepreneurship Program
 
 ### Currently Interested in..
-- SW Architect
+- SW Architectecture
 - Data Engineering
